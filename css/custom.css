@@ -1,0 +1,60 @@
+/* custom.css */
+
+.appointment-form {
+    background: #f9f9f9;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.appointment-form h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #333;
+}
+
+.appointment-form p {
+    margin-bottom: 30px;
+    font-size: 16px;
+    color: #666;
+}
+
+.appointment-form .form-group label {
+    font-weight: 500;
+    color: #333;
+}
+
+.appointment-form .form-group input,
+.appointment-form .form-group select {
+    height: 45px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 0 15px;
+    font-size: 16px;
+    color: #333;
+}
+
+.appointment-form .form-group input:focus,
+.appointment-form .form-group select:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+    outline: none;
+}
+
+.appointment-form .form-group button {
+    background: #aa426a;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.appointment-form .form-group button:hover {
+    background: #0056b3;
+}
